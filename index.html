@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula Digital de Programacion</title>
+  <meta name="description" content="Pagina academica sobre recursos basicos de programacion, creada para practicar publicacion web.">
+  <meta name="theme-color" content="#123c69">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-mark" aria-hidden="true">AD</span>
+      <span>Aula Digital</span>
+    </a>
+
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="sr-only">Abrir menu</span>
+    </button>
+
+    <nav id="main-menu" class="site-nav" aria-label="Menu principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#proyecto">Proyecto</a>
+      <a href="#contenidos">Contenidos</a>
+      <a href="#recursos">Recursos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero section-band">
+      <div class="hero-copy">
+        <p class="eyebrow">Proyecto academico</p>
+        <h1>Aula Digital de Programacion</h1>
+        <p>
+          Una pagina web educativa para compartir conceptos iniciales, recursos y
+          actividades practicas sobre programacion.
+        </p>
+        <a class="action-button" href="#contacto">Solicitar informacion</a>
+      </div>
+
+      <div class="visual-panel" aria-label="Elemento visual de programacion">
+        <div class="browser-bar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <pre><code>function aprender() {
+  const meta = "crear soluciones";
+  return meta;
+}</code></pre>
+      </div>
+    </section>
+
+    <section id="proyecto" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Sobre el proyecto</p>
+        <h2>Presentacion</h2>
+      </div>
+      <div class="two-column">
+        <p>
+          Este sitio presenta una propuesta academica para estudiantes que desean
+          iniciar en el desarrollo web. Su objetivo es organizar informacion
+          basica, mostrar recursos utiles y practicar la publicacion de una
+          pagina en una plataforma gratuita.
+        </p>
+        <p>
+          La pagina fue disenada con HTML, CSS y JavaScript. Incluye navegacion
+          interna, secciones de contenido, un elemento visual, contacto simulado
+          y un pie de pagina, cumpliendo los requisitos de la actividad.
+        </p>
+      </div>
+    </section>
+
+    <section id="contenidos" class="section section-soft">
+      <div class="section-heading">
+        <p class="eyebrow">Servicios o contenidos</p>
+        <h2>Temas principales</h2>
+      </div>
+      <div class="card-grid">
+        <article class="info-card">
+          <span class="card-number">01</span>
+          <h3>HTML semantico</h3>
+          <p>
+            Estructura basica de una pagina web usando encabezados, secciones,
+            enlaces, imagenes y contenido organizado.
+          </p>
+        </article>
+        <article class="info-card">
+          <span class="card-number">02</span>
+          <h3>Diseno con CSS</h3>
+          <p>
+            Aplicacion de colores, tipografias, distribucion responsive y estilos
+            visuales para mejorar la presentacion.
+          </p>
+        </article>
+        <article class="info-card">
+          <span class="card-number">03</span>
+          <h3>Publicacion web</h3>
+          <p>
+            Uso de plataformas gratuitas como GitHub Pages, Netlify o Vercel para
+            compartir el sitio mediante un enlace publico.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="recursos" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Galeria o recursos</p>
+        <h2>Material de apoyo</h2>
+      </div>
+      <div class="resource-list">
+        <article>
+          <h3>Guia rapida</h3>
+          <p>Pasos basicos para crear una pagina: planificar, escribir contenido, disenar, probar y publicar.</p>
+        </article>
+        <article>
+          <h3>Practicas recomendadas</h3>
+          <p>Usar textos claros, enlaces funcionales, contraste adecuado y vista adaptable para celular.</p>
+        </article>
+        <article>
+          <h3>Evidencias</h3>
+          <p>Capturar la pagina local, el panel de publicacion, la vista movil y el enlace publico final.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact-section">
+      <div>
+        <p class="eyebrow">Contacto simulado</p>
+        <h2>Informacion de contacto</h2>
+        <p>
+          Para fines academicos, estos datos son ficticios y solo sirven como
+          ejemplo dentro de la pagina publicada.
+        </p>
+      </div>
+      <div class="contact-card">
+        <p><strong>Correo:</strong> c.valoy@unapec.edu.do</p>
+        <p><strong>Telefono:</strong> 849-271-4703</p>
+        <p><strong>Ubicacion:</strong> Santo Domingo</p>
+        <a class="action-button secondary" href="mailto:c.valoy@unapec.edu.do">Enviar mensaje</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="current-year">2026</span> Aula Digital de Programacion. Sitio creado para la Actividad 5.</p>
+    <a href="#inicio">Volver al inicio</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
